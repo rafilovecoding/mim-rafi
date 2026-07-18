@@ -30,5 +30,5 @@ function moveButton() {
 
 function yesAnswer() {
 
-    alert("ইয়ে! 💜");
+alert("ইয়ে! 💜 এখন থেকে তুমি শুধু আমার, আমি চাই এমন করেই সমস্ত জীবন আমার পাশে থাকো");
 }
