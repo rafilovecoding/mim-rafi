@@ -1,7 +1,15 @@
-function nextPage() {
+function nextPage(pageNumber) {
 
-    alert(
-        "মিম, তুমি আমার কাছে অনেক স্পেশাল ❤️"
-    );
+    document.getElementById("page" + pageNumber).classList.add("hidden");
+
+    document.getElementById("page" + (pageNumber + 1)).classList.remove("hidden");
+
+}
+
+function goBack(pageNumber) {
+
+    document.getElementById("page" + pageNumber).classList.add("hidden");
+
+    document.getElementById("page" + (pageNumber - 1)).classList.remove("hidden");
 
 }
