@@ -83,3 +83,26 @@ button{
 .no:hover{
     transform:scale(0.9);
 }
+.hidden {
+    display: none;
+}
+
+.yes-btn,
+.no-btn {
+    padding: 18px 35px;
+    font-size: 24px;
+    border: none;
+    border-radius: 40px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.yes-btn {
+    background: linear-gradient(to right, hotpink, violet);
+    color: white;
+}
+
+.no-btn {
+    background: #222;
+    color: white;
+}
